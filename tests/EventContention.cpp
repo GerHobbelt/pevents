@@ -15,7 +15,7 @@
 
 using namespace neosmart;
 
-int main() {
+int main(void) {
     // Create an auto-reset event that is initially signalled
     neosmart_event_t event = CreateEvent(false, true);
 

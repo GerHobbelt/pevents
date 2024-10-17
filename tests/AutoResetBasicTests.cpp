@@ -18,7 +18,7 @@ void worker() {
     SetEvent(t1_finished);
 }
 
-int main() {
+int main(void) {
     event = CreateEvent(false, true);
     auto result = WaitForEvent(event, 0);
     if (result != 0) {

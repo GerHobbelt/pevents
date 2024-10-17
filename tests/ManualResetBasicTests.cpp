@@ -18,7 +18,7 @@ void worker() {
     SetEvent(t1_finished);
 }
 
-int main() {
+int main(void) {
     event = CreateEvent(true, false);
     t1_started = CreateEvent(true, false);
     t1_finished = CreateEvent(true, false);

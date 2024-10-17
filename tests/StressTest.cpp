@@ -67,7 +67,7 @@ void worker(size_t index) {
     SetEvent(done[index]);
 }
 
-int main() {
+int main(void) {
     srand(time(NULL));
 
     for (int i = 0; i < THREADS; ++i) {

@@ -8,7 +8,7 @@
 #include <vector>
 #include "pevents.h"
 
-int main() {
+int main(void) {
     std::vector<neosmart::neosmart_event_t> lPEvents(63); // Can be any number of events from 1-N.
     for (auto &lEvent : lPEvents) {
         // Manual or Auto-Reset Events (doesn't matter which kind), and all already set.

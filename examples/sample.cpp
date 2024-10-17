@@ -87,7 +87,7 @@ void numbers() {
     }
 }
 
-int main() {
+int main(void) {
     events[0] = CreateEvent(); // letter available auto-reset event, initially unavailable
     events[1] = CreateEvent(); // number available auto-reset event, initially unavailable
     events[2] = CreateEvent(true, false); // abort manual-reset event

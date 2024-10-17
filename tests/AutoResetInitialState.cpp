@@ -20,7 +20,7 @@ bool InitiallyUnset() {
     return result == WAIT_TIMEOUT;
 }
 
-int main() {
+int main(void) {
     if (!InitiallySet()) {
         std::cout << "InitiallySet test failed!" << std::endl;
         return 1;
